@@ -7,7 +7,7 @@ pipeline {
     }
 
     stages {
-        stage('Git Checkout') {
+        stage('Git Checkout for unni2') {
             steps {
                 git branch: 'feature-2', url: 'https://github.com/jaiswaladi246/Petclinic.git'
             }
